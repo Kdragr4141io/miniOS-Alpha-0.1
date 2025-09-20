@@ -1,24 +1,46 @@
 
-Hello everyone, what I have done is a program called miniOS written in C++ language. It is similar to an operating system. It includes a fake Web Browser that resembles MS-DOS, a Nostalgic Fake Dial Up connection, a number guessing game, a notepad that can hold 1 note and many more. Here are the instructions for use.
+📖 2. README.md
 
-If you want to connect to the internet, you can type www immediately, but this will not work.
+# 📝 Açık Kaynak Not Defteri
 
-Because first you have to connect to Dial Up, for this type connect then type TT INTERNET then type DIAL 0530 and you will be connected to the Internet (pay attention to upper and lower case letters.)
+Basit, web tabanlı bir **not defteri**.  
+Python ile tek dosyada yazıldı, ek bir kütüphane gerektirmez.  
 
-You can then go to the internet by typing www and at the same time you can look at the fake websites we have prepared by typing bookmarks.
+## 🚀 Özellikler
+- Not ekleme, listeleme, silme  
+- Tarayıcıda çalışır  
+- Notlar LocalStorage’da saklanır (sayfa kapansa bile kalır)  
+- Tek Python dosyası → her yerde çalıştırılabilir  
+
+## 📦 Kurulum
+```bash
+git clone https://github.com/kullaniciadi/not-defteri.git
+cd not-defteri
+python not_defteri.py
+
+Ardından tarayıcıdan şu adrese git:
+👉 http://localhost:8000
+
+📱 Pydroid 3 (Android) Kullanımı
+
+Dosyayı kaydet: not_defteri.py
+
+Pydroid 3 ile aç ve çalıştır
+
+Tarayıcıdan http://localhost:8000 adresini aç
 
 
-Type www.prints.com and enter the model number of one of the 5 ASCII models by typing download to download it.
+📜 Lisans
 
-Type exit to exit the browser, then type download to look at the download, type print and type the model number and you will draw it.
+Bu proje Apache License 2.0 ile lisanslanmıştır.
+Detaylar için LICENSE dosyasına bakabilirsiniz.
 
-The entire system is completely in English.
+---
 
-You can play a number guessing game by typing play.
+## 🔖 3. Damgalama (Kod İçine Lisans Başlığı)
+`not_defteri.py` dosyasının en üstüne ekle:  
 
-If you type memo, write a note, then exit and write memo again, you can see the note you wrote.
-
-You can do simple calculations by typing calc (Number+Number).
-
-Mustafa Kadir Ağır
-First Release Date:July 5 2025
+```python
+"""
+Açık Kaynak Not Defteri
+Copyright 2025 Mustafa Kadir
